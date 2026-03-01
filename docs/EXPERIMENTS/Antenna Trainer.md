@@ -185,13 +185,6 @@ This specific block is designed to act as the central "feed" element for a large
 
 - This module is a bit different from the standard transmitting antennas. In our setup, it's used specifically on the receiving end. The "Detector" antenna usually has built-in components (like a diode) that convert the high-frequency radio waves it catches into a measurable electrical direct current (DC) signal. This is the crucial tool that allows us to actually map out the shape of the radiation patterns from our other antennas; by moving the detector around the transmitter, we can read the signal strength at different angles and distances.
 
-# OUTPUT
-https://github.com/user-attachments/assets/b86d7d66-e138-40b6-86ad-122feb5c2326
-
-https://github.com/user-attachments/assets/92ded2ba-afe6-4ddd-8c9c-91e132ecff6b
-
-https://github.com/user-attachments/assets/f4034039-7320-4603-add7-7ed31cddd21f
-
 # Methodology: Experimental Setup and Calibration 🔧🔌
 
 1. Physical Setup of the RF LinkTwo separate antenna mounting masts were positioned on the laboratory bench at a fixed, unobstructed distance from one another. This separation distance was maintained to ensure measurements were taken in the antenna's far-field (Fraunhofer) region, where the electromagnetic wave functions as a fully formed plane wave.
@@ -201,6 +194,33 @@ https://github.com/user-attachments/assets/f4034039-7320-4603-add7-7ed31cddd21f
 3. Alignment and Baseline Calibration (Normalization)Before any structural comparisons or radiation patterns could be measured, the system required a baseline calibration. Both the transmitting and receiving antennas were carefully adjusted so that they were perfectly parallel and facing one another directly (the $0^\circ$ orientation).With the RF generator actively transmitting, the tuning controls and gain adjustments on the receiver were manipulated until the digital or analog readout displayed a precise value of "1".
 
 4. Establishing the Reference PointAchieving this reading of "1" was a critical step in the experiment. It established a normalized maximum reference level ($1.0$ or $100\%$) representing the optimal signal strength transferred when the antennas are perfectly aligned. By setting this baseline, any subsequent changes made to the system—such as swapping to a different antenna module, introducing parasitic elements (like in the Yagi-Uda), or rotating the receiving mast to different angles—could be accurately measured as a relative drop or increase from that established "1" reference point.
+
+# Transmitter and Receiver Setup 📡
+
+# The Transmitter (Tx) Side 📡📶➡️
+
+![transmitter](https://github.com/magpantayjohanzrep/LAB-REPORT-4/blob/fcb3650313a8448498dbfeeb12551cb0fba274f3/docs/documentation/638247132_921408387047888_1427834736860581240_n.jpg)
+
+- The transmitter side of our setup was responsible for generating the radio frequency signal and launching it into the air. The core of this side was the main RF Signal Generator unit. This device functioned as our oscillator, generating a continuous, high-frequency alternating current (AC). This electrical signal was then guided through a coaxial transmission line up to the fixed transmitting mast, where it connected to the base of our chosen transmitting antenna module (such as the simple half-wave dipole).
+
+- In this configuration, the transmitting antenna acted as a forward transducer. As the high-frequency alternating current flowed into the conductive traces or metal rods of the green PCB module, it created rapidly alternating electric and magnetic fields. These fields detached from the antenna structure and radiated outward into the surrounding free space as electromagnetic waves. For the duration of our specific measurement procedures, the transmitter side was kept entirely stationary to ensure a consistent point of origin for the signal.
+
+# The Receiver (Rx) Side ⬅️📶📡
+
+![receiver](https://github.com/magpantayjohanzrep/LAB-REPORT-4/blob/fcb3650313a8448498dbfeeb12551cb0fba274f3/docs/documentation/637539601_26509557238641995_805112530944791005_n.jpg) 
+
+- Conversely, the receiver side of our setup was designed to capture a portion of those radiating electromagnetic waves and translate them back into measurable quantitative data. This side featured a corresponding antenna module mounted on a separate mast. When the propagating electromagnetic waves from the transmitter washed over the receiving antenna, the process reversed: the fluctuating magnetic and electric fields induced a very small alternating voltage within the receiving antenna's elements.
+  
+- This induced signal was then fed down into our RF receiver and field strength meter unit, which amplified and quantified the received power. The most important physical feature of the receiver side in our experiment was its rotary base. The receiving mast was mounted on a goniometer (a dial marked with $360^\circ$ of rotation). While the transmitter remained fixed, we manually rotated the receiver side. By observing how the received signal strength—displayed on the meter—fluctuated as the physical angle of the receiving antenna changed, we were able to map out the exact spatial radiation pattern of the module being tested.
+
+
+# OUTPUT
+https://github.com/user-attachments/assets/b86d7d66-e138-40b6-86ad-122feb5c2326
+
+https://github.com/user-attachments/assets/92ded2ba-afe6-4ddd-8c9c-91e132ecff6b
+
+https://github.com/user-attachments/assets/f4034039-7320-4603-add7-7ed31cddd21f
+
 
 # Reflection/Learning Summary 💡
 
