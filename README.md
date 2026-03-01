@@ -1,1 +1,20 @@
-# LAB-REPORT-4
+# LAB-REPORT-4 - Antenna Trainer and Waveguide (experiment in docs file)
+
+# Antenna  Trainer  📡📶🛰️📻 
+![trainer](https://github.com/magpantayjohanzrep/LAB-REPORT-4/blob/a2c5310a1e641f23f5f3c9af82e6bfe3dabb21d7/docs/documentation/antenna%20trainer.jpg)
+
+- In the study of telecommunications and radio frequency (RF) engineering, understanding how antennas radiate and receive electromagnetic waves is a crucial foundation. However, because radio waves are invisible, visualizing how they travel through the air can be quite challenging. To bridge the gap between classroom theory and practical application, this laboratory activity utilized a comprehensive modular Antenna Trainer Kit.
+
+- The Antenna Trainer Kit is a specialized, hands-on educational system designed to let us physically experiment with different antenna designs in real-time. Instead of building complex wire setups from scratch, the system relies on universal base stations—such as those labeled Antenna Kit 'A' and 'B'. These bases act as our primary transmitter and receiver mounts, allowing us to quickly plug in and swap out a wide variety of interchangeable antenna modules. The modules we tested ranged from fundamental omnidirectional antennas, like simple dipoles, to highly directional multi-element setups, like the Yagi-Uda and broadside arrays.
+
+- By using this trainer kit alongside our lab's signal generation and detection equipment, we were able to safely and efficiently observe how an antenna's physical structure, length, and element arrangement directly alter its radiation pattern. This hands-on approach took the abstract math of wavelengths and frequencies and turned it into measurable, real-world data, helping us understand exactly why specific antennas are chosen for real-world applications like Wi-Fi routers, television broadcasting, and satellite communications.
+
+# Waveguide 📡📶〰️〰️〰️📡
+![waveguide](https://github.com/magpantayjohanzrep/LAB-REPORT-4/blob/a2c5310a1e641f23f5f3c9af82e6bfe3dabb21d7/docs/documentation/Screenshot%202026-03-01%20125701.png)
+![waveguide](https://github.com/magpantayjohanzrep/LAB-REPORT-4/blob/a2c5310a1e641f23f5f3c9af82e6bfe3dabb21d7/docs/documentation/Screenshot%202026-03-01%20131359.png)
+
+- In the field of modern telecommunications, antennas serve as the critical interface between guided electrical circuits and unguided free-space environments. They act as essential transducers, converting high-frequency alternating currents into propagating electromagnetic waves during transmission, and performing the exact reverse process during reception. While classroom lectures provide the necessary mathematical and theoretical foundations of electromagnetics—such as ideal dipole behavior and wave propagation—this laboratory experiment was designed to bridge the gap between those abstract concepts and real-world physical performance.
+
+-  The primary focus of this experiment was to practically observe, analyze, and compare the distinct characteristics of various foundational antenna topologies. Utilizing a specialized modular antenna trainer kit, we established a controlled radio frequency (RF) communication link. This setup allowed us to physically interact with a diverse range of antenna designs printed on circuit boards, ranging from simple elemental structures like the half-wave Hertz dipole to highly directional, multi-element configurations like the Yagi-Uda and broadband structures like the log-periodic array.
+
+-  By systematically swapping these modules and observing their behavior, the experiment aimed to demonstrate how an antenna's physical geometry directly dictates its electrical properties. Specifically, we investigated how altering the shape of the conductive elements or introducing passive parasitic elements (such as reflectors and directors) manipulates the spatial distribution of radiated energy. Through a methodical process of calibrating a baseline signal and measuring relative field strength across a 360-degree rotation, we were able to physically map out the unique radiation patterns and directivity of each antenna. Ultimately, this hands-on approach provided a tangible understanding of how different physical configurations are engineered to solve specific, real-world communication challenges.
